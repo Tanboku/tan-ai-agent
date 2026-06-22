@@ -77,6 +77,8 @@ public class LoveApp {
         return loveReport;
     }
 
+//    @Resource
+//    private VectorStore pgVectorStore;
 
     public String doChatWithRag(String message, String chatId) {
         ChatResponse chatResponse = chatClient
@@ -88,7 +90,9 @@ public class LoveApp {
                 .advisors(new MyLoggerAdvisor())
                 // 应用知识库问答
 //                .advisors(new QuestionAnswerAdvisor(loveAppVectorStore))
+                //基于RAG检索增强服务
                 .advisors(loveAppRagCloudAdvisor)
+//                .advisors(new QuestionAnswerAdvisor(loveAppVectorStore))
                 .call()
                 .chatResponse();
         String content = chatResponse.getResult().getOutput().getText();
