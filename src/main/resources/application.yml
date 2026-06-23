@@ -20,12 +20,17 @@ springdoc:
       paths-to-match: '/**'
       packages-to-scan: com.tanboku.tanaiagent.controller
   ai:
-    vectorstore:
-      pgvector:
-      index-type: HNSW
-      distance-type: COSINE_DISTANCE
-      dimensions: 1536
-      max-document-batch-size: 10000 # Optional: Maximum number of documents per batch
+#    vectorstore:
+#      pgvector:
+#      index-type: HNSW
+#      distance-type: COSINE_DISTANCE
+#      dimensions: 1536
+#      max-document-batch-size: 10000 # Optional: Maximum number of documents per batch
+    mcp:
+      client:
+        stdio:
+          servers-configuration: classpath:mcp-servers.json
+
 # knife4j的增强配置，不需要增强可以不配
 knife4j:
   enable: true

@@ -105,8 +105,8 @@ yu-ai-agent/
    bash
 
    ```
-   git clone https://github.com/liyupi/yu-ai-agent.git
-   cd yu-ai-agent
+   git clone https://github.com/Tanboku/tan-ai-agent.git
+   cd tan-ai-agent
    ```
 
    
@@ -142,14 +142,14 @@ yu-ai-agent/
 
    ```
    mvn clean install
-   java -jar target/yu-ai-agent.jar
+   java -jar target/tan-ai-agent.jar
    ```
 
    
 
 5. **访问 API 文档**
 
-   - 启动后访问 `http://localhost:8080/doc.html` 查看接口列表（Knife4j）。
+   - 启动后访问 `http://localhost:8123/doc.html` 查看接口列表（Knife4j）。
 
 ------
 
