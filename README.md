@@ -15,7 +15,7 @@
 
 ## 核心功能
 
-![image-20260623191629593](C:\Users\hp\AppData\Roaming\Typora\typora-user-images\image-20260623191629593.png)
+![image-20260623191905002](D:\javacod\tan-ai-agent\assets\image-20260623191905002.png)
 
 ### AI 恋爱大师
 
@@ -26,7 +26,7 @@
 - 结构化输出（生成恋爱报告、建议方案）
 - 多模态输入支持（文字 + 图像）
 
-![image-20260623191436361](C:\Users\hp\AppData\Roaming\Typora\typora-user-images\image-20260623191436361.png)
+![image-20260623191912108](D:\javacod\tan-ai-agent\assets\image-20260623191912108.png)
 
 ### 自主规划智能体 YuManus
 
