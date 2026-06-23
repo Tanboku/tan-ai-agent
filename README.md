@@ -15,6 +15,8 @@
 
 ## 核心功能
 
+![image-20260623191629593](C:\Users\hp\AppData\Roaming\Typora\typora-user-images\image-20260623191629593.png)
+
 ### AI 恋爱大师
 
 - 多轮对话与上下文记忆（持久化存储）
@@ -23,6 +25,8 @@
 - MCP 服务集成（扩展外部能力，如图片搜索）
 - 结构化输出（生成恋爱报告、建议方案）
 - 多模态输入支持（文字 + 图像）
+
+![image-20260623191436361](C:\Users\hp\AppData\Roaming\Typora\typora-user-images\image-20260623191436361.png)
 
 ### 自主规划智能体 YuManus
 
