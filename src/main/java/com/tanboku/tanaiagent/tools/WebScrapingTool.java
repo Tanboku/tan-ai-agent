@@ -1,4 +1,4 @@
-package com.tanboku.tanaiagent.tool;
+package com.tanboku.tanaiagent.tools;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;

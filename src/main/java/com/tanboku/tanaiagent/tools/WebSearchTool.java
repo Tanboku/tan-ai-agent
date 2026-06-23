@@ -1,4 +1,4 @@
-package com.tanboku.tanaiagent.tool;
+package com.tanboku.tanaiagent.tools;
 
 import cn.hutool.http.HttpUtil;
 import cn.hutool.json.JSONArray;

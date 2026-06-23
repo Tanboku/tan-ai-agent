@@ -1,4 +1,4 @@
-package com.tanboku.tanaiagent.tool;
+package com.tanboku.tanaiagent.tools;
 
 import org.springframework.ai.tool.annotation.Tool;
 import org.springframework.ai.tool.annotation.ToolParam;
